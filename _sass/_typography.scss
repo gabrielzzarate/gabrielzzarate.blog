@@ -1,0 +1,42 @@
+///////////////////////////////////
+// Typography Styles
+//////////////////////////////////
+
+// typography scale
+
+$interval: 1.5;
+
+$scale0: 1rem; // 18px (base size, body text)
+$scale-1: $scale0 / $interval; // 12px
+$scale1: $scale0 * $interval; // 27px
+$scale2: $scale1 * $interval; // 40.5px
+
+// font-family variables
+$body-font: 'Relevant', Helvetica, Arial, sans-serif;
+$heading-font: 'Relevant', Helvetica, Arial, sans-serif;
+
+html {
+	font-size: percentage(18/16);
+	font-family: $body-font;
+}
+
+// Import Relevant
+
+@font-face {
+	font-family: 'Relevant'; // regular
+	src: url('../_includes/fonts/Relevant-Normal.eot')
+			format('embedded-opentype'),
+		url('../_includes/fonts/Relevant-Normal.TTF') format('truetype'),
+		url('../_includes/fonts/Relevant-Normal.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Relevant'; // bold
+	src: url('../_includes/fonts/Relevant-Bold.eot') format('embedded-opentype'),
+		url('../_includes/fonts/Relevant-Bold.TTF') format('truetype'),
+		url('../_includes/fonts/Relevant-Bold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
