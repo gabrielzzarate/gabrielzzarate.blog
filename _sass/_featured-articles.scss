@@ -1,0 +1,17 @@
+.featured-articles {
+	padding: 30px 0 20px 30px;
+
+	li {
+		text-decoration: none;
+	}
+
+	.featured-article {
+		h2 {
+			margin: 0;
+		}
+
+		.post-meta {
+			padding-left: 8px;
+		}
+	}
+}

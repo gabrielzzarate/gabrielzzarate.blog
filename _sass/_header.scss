@@ -1,0 +1,29 @@
+header {
+	position: absolute;
+	left: 45px;
+	top: 45px;
+
+	@include tablet-small {
+		left: 30px;
+		top: 30px;
+	}
+
+	a {
+		color: $black;
+		text-transform: uppercase;
+		font-family: $heading-font;
+		@include font-size(12px);
+		letter-spacing: 0.8px;
+		transition: color 0.25s ease-in;
+		cursor: pointer;
+
+		&:first-of-type,
+		&:nth-of-type(2) {
+			padding-right: 15px;
+		}
+
+		&:hover {
+			color: $ltgray;
+		}
+	}
+}
