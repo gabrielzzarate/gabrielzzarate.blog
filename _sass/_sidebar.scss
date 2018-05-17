@@ -22,7 +22,30 @@
 	.name {
 		@include tablet-small {
 			padding: 120px 0 0 25px;
+
+			h2,
+			.sub-head {
+				display: none;
+			}
+
+			.mobile-intro {
+				display: block;
+			}
 		}
+	}
+
+	.mobile-intro {
+		display: none;
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 60px;
+		width: 60px;
+		background: black;
+		line-height: 60px;
+		text-align: center;
+		color: rgba(0, 0, 0, 0);
+		font-size: 20px;
 	}
 
 	h2 {
