@@ -1,0 +1,18 @@
+# The Gap
+
+## Fall 2015 
+
+I decided to learn to code. For five months I used all of my time outside of my warehouse job learning the fundamentals of front-end web development. I quickly began to understand the aspects of development that interested me most: working with the latest web technologies to build beautiful applications. The foundation of what I love about development is the complex problems that must always be solved when building an application with some useful functionality. On top of that layout, user-experience, type, and animations are also things that I pay close attention to. 
+
+## February 2016
+
+I began my first day in an immersive front-end engineering course at the now defunct coding school *The Iron Yard.* I loved the 12 weeks of learning I had at that school. It was so satisfying to constantly push through personal doubts and insecurities ("Can I do this? Will I figure out how to do this?") and learn new exciting things. Working alongside other ambitious, hard-working students showed me how much I love collaborating on problem-solving and building things.
+
+## July 2016
+
+I moved to Atlanta, GA to begin a 3-month front-end development internship at an agency called Vert Digital.
+
+## October 2016
+
+Vert hires me on full-time. 
+
