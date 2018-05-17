@@ -8,7 +8,7 @@
 
 		@include tablet-small {
 			border-right: 0;
-			height: 250px;
+			height: 120px;
 		}
 	}
 
@@ -42,13 +42,13 @@
 		right: 17px;
 		height: 48px;
 		width: 48px;
-		background: #afceeb;
+		background: gray;
 		line-height: 48px;
 		text-align: center;
 		font-size: 23px;
 
 		a {
-			color: rgba(0, 0, 0, 0) !important;
+			color: #fff;
 		}
 	}
 
